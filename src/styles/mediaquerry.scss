@@ -1,0 +1,193 @@
+@media screen and (max-width: 820px) {
+  .home {
+    height: 130vh;
+
+    > div {
+      height: 120vh;
+    }
+  }
+
+  .contact {
+    > main {
+      height: 100vh;
+      width: 100%;
+      border-radius: 0;
+
+      > h1 {
+        text-align: center;
+      }
+
+      > form {
+        > div {
+          gap: 2rem;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .nav {
+    > h1 {
+      display: none;
+    }
+
+    > main {
+      width: 100%;
+      justify-content: center;
+
+      a {
+        margin: 0.5rem;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .home {
+    border-radius: 0;
+    > main {
+      align-items: center;
+
+      h1 {
+        font-size: 3.3rem;
+        margin-bottom: 15px;
+      }
+
+      p {
+        font-size: 12px;
+      }
+    }
+
+    &::before {
+      border-radius: 0 0 20px 20px;
+    }
+  }
+
+  .home2 {
+    padding: 400px 0 500px 0;
+    flex-direction: column;
+
+    > img {
+      width: 100%;
+    }
+
+    > div {
+      padding: 3rem;
+      width: 100%;
+
+      > p {
+        letter-spacing: 2px;
+        word-spacing: 5px;
+        font-size: 15px;
+      }
+    }
+  }
+
+  .home3 {
+    height: 100vh;
+    > div {
+      width: 100%;
+
+      border-radius: 0;
+      flex-direction: column;
+
+      > h1 {
+        font-size: 30px;
+        width: 14rem;
+      }
+
+      > p {
+        letter-spacing: 0px;
+        font-size: 13px;
+        padding: 2rem;
+        word-spacing: 4px;
+        line-height: 24px;
+      }
+    }
+  }
+
+  .home4 {
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+
+    > div {
+      border-radius: 0;
+      width: 100%;
+
+      > article {
+        > div {
+          height: 5rem;
+          width: 5rem;
+          border-radius: 50%;
+          svg {
+            font-size: 2rem;
+          }
+
+          p {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  footer {
+    height: 230px;
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 30px;
+
+    > div {
+      width: 100%;
+      text-align: center;
+      > h1 {
+        font-size: 30px;
+        padding-bottom: 5px;
+      }
+
+      > p {
+        font-size: 15px;
+      }
+      > h5 {
+        font-size: 25px;
+        margin: 0rem 0;
+        padding: 0px 0 15px 0;
+        text-align: center;
+      }
+
+      > div {
+        justify-content: center;
+        flex-direction: row;
+        gap: 25px;
+        > a {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .contact {
+    > main {
+      > h1 {
+        padding-bottom: 30px;
+      }
+
+      > form {
+        text-align: center;
+        margin: auto;
+        > div {
+          padding-top: 20px;
+          gap: 10px;
+          height: 100%;
+          flex-direction: column;
+
+          > input {
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
